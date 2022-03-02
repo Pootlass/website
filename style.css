@@ -1,0 +1,78 @@
+
+
+
+
+body {
+background-color: aqua;
+color: DarkSlateBlue;
+font-family: Arial;
+font-family: 'Smooch Sans', sans-serif;
+font-size: 14px;
+}
+
+
+h1 {
+    color: red;
+    font-size: 36px;
+    text-align: right;
+}
+
+h2{
+  color: light blue;
+  font-size: 24px;
+}
+
+h3{
+  color: royal blue;
+  font-size: 24px;
+}
+
+p {
+  color: black;
+  font-size: 19px;
+  line-height: 1;
+}
+
+li {
+  color: black;
+}
+h1, h2, h3 {
+  font-weight: 600;
+  font-style: oblique;
+}
+
+footer {
+  font-size: 19px;
+}
+footer p {
+  font-size: 22px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
+}
+
+ol {
+  font-size: 21px;
+}
+
+li {
+  font-size: 19px;
+}
+
+<br>
