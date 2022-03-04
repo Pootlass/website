@@ -14,6 +14,8 @@ font-family: Arial;
   /* font-family: 'Smooch Sans', sans-serif; */
 font-size: 14px;
 margin: 50px;
+ background-image: url(images/watercolor.png);
+ /* background-repeat: no-repeat; */
       }
 
 
@@ -108,4 +110,20 @@ ul, ol {
 
 .about {
   width: 25%;
+}
+
+/* .container { */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 200px;
+  background-image: url(images/coffeebeans.jpg);
+   background-size: cover;
+   /* background-position: center; */
+}
+
+div {
+  margin: 0 auto;
 }
