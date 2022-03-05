@@ -12,7 +12,7 @@ background-color: aqua;
 color: DarkSlateBlue;
 font-family: Arial;
   /* font-family: 'Smooch Sans', sans-serif; */
-font-size: 14px;
+font-size: 50px;
 margin: 50px;
  background-image: url(images/background2.png);
  /* background-repeat: no-repeat; */
@@ -129,4 +129,21 @@ ul, ol {
 
 div {
   margin: 0 auto;
+}
+
+
+.column2 img {
+  align: left;
+  width: 300px;
+}
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
