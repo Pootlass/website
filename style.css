@@ -14,7 +14,7 @@ font-family: Arial;
   /* font-family: 'Smooch Sans', sans-serif; */
 font-size: 14px;
 margin: 50px;
- background-image: url(images/watercolor.png);
+ background-image: url(images/background2.png);
  /* background-repeat: no-repeat; */
       }
 
@@ -48,6 +48,7 @@ header {
   /* border-bottom: 5px solid blue; */
   margin: 20px;
   padding: 10px;
+  text-align: center;
 }
 
 li {
@@ -57,7 +58,7 @@ h1, h2, h3 {
   font-weight: 600;
   font-style: oblique;
   margin-bottom: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 footer {
@@ -95,8 +96,10 @@ li {
 }
 
 img {
-  /* width: 20px; */
+  width: 350px;
   height: 200px;
+  float: left;
+  margin-right: 10px;
 }
 
 ul, ol {
@@ -104,7 +107,7 @@ ul, ol {
 }
 
 .title {
-  font-size: 48px;
+  font-size: 50px;
   text-decoration: underline;
 }
 
@@ -121,7 +124,7 @@ ul, ol {
   height: 200px;
   background-image: url(images/coffeebeans.jpg);
    background-size: cover;
-   /* background-position: center; */
+   background-position: center;
 }
 
 div {
